@@ -1,15 +1,19 @@
 {
   "name": "chai_aur_backend",
   "version": "1.0.0",
-  "description": "a basic app to deploy ",
+  "description": "a basic app to deploy",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "keywords": [
     "node",
     "chai"
   ],
   "author": "gautam saini",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.0.0",
+    "express": "^5.1.0"
+  }
 }
